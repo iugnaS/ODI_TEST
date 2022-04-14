@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="4K9m+B3Meq0QGk1kkkPeqw==" exportKeySalt="34b7e73d-f377-4430-9e7f-9fd213fdcc7b" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="n+byZMN4wh6TJHn6tk8cIQ==" exportKeySalt="225fb33f-3e6c-4f4a-bd92-5bb7dcb4b8f6" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpProject">
 		<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
 	<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2022-04-04 16:47:51.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[cfb542b0-6eb3-4896-ac66-aaa705d40648]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2022-04-14 10:40:22.0]]></Field>
@@ -73,6 +73,30 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[6f272d22-c53e-4aa0-85e7-a3b137337f7e]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[929fe2582cf48748afb73dd9fcf9ae0984c9a5e7]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Knowledge Modules/Check(CKM)/KM_CKM_Oracle.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Priorities]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[8d09476d-3859-4fb5-8dc0-3763faa51651]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[7eddd1f729d771f6bd479910be223ae3194a0f40]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Priorities.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Progress]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[63a05e01-fa4d-47a3-9689-081f465b19b9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[7ae71abee82c8a687ab1acb7344d1dbfda304828]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Progress.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Smileys]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[75471c1d-95b1-498d-ad62-5dec390bee7f]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[556495854391c8c2c33acfabaddc2f0929b71f48]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Smileys.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.DwgExportSummary">
 		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
